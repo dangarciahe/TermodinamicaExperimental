@@ -12,9 +12,9 @@ double termino(double theta); //Pasar el delta Q al lado derecho, y esto es igua
 
 
 //Inputs
-const double m = 10.4e-3; //Cambio de masa 
-const double masa = 55.9e-3; //Masa de la muestra
-const double molecular = 55.85e-3; //Masa molar de la muestra
+const double m = 6.9e-3; //Cambio de masa 
+const double masa = 25.2e-3; //Masa de la muestra
+const double molecular = 63.546e-3; //Masa molar de la muestra
 
 
 //Constantes

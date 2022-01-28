@@ -11,14 +11,8 @@ CXX_FLAGS = -O3
 %.x : %.cpp
 	g++ $(CXX_FLAGS) $< -o $@
 
-run:	a.out
+run:	Temperatura_Debye.x
 	./$<
 
-a.out:	version2_temp_debye.cpp
-	g++ -Ofast $<
-
 clean:
-	rm -f datos.txt updown.x
-
-clean-all:
-	rm -f datos.txt updown.x datos.pdf
+	rm -f *.x
